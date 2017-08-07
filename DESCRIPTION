@@ -1,0 +1,17 @@
+Package: mda802
+Title: Multidimensional Analysis labs materials
+Version: 0.1
+Authors@R: as.person(c(
+    "Romain Chailan <romain.chailan@gmail.com> [aut, cre]", 
+    "March Bourotte <marc84b@gmail.com> [aut]"
+  ))
+Description: A vanilla package providing materials to perform UMC802-MDA labs.
+Depends: R (>= 3.4.0)
+License: MIT
+LazyData: true
+Imports:
+  factoextra (>= 1.0.4),
+  FactoMineR (>= 1.36),
+Suggests:
+  dplyr (>= 0.7.0),
+  tidyverse (>= 1.1.1),
